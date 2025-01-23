@@ -7,6 +7,7 @@ pp "Hi! Where are you located?"
 
 x = gets.chomp
 pp "I see, you're in #{x}"
+puts "I see, you're in #{x}"
 
 require "./goodbye.rb" # this executes in the code goodbye.rb
 
